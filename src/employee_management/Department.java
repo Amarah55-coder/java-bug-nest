@@ -50,4 +50,8 @@ public class Department {
             System.out.println("ID: " + employee.employeeId + ", Name: " + employee.name + ", Hours Worked: " + employee.hoursWorked + ", Hourly Rate: " + employee.hourlyRate + ", Pay: " + employee.calculatePay());
         }
     
+    }
+    public Set<FullTimeEmployee> getFullTimeEmployees() {
+        return fullTimeEmployees;
+    }
 }
